@@ -1,6 +1,6 @@
 # environment variables
 region       = "us-east-1"
-project_name = "jenkins"
+project_name = "cicd-3-tier-vpc"
 environment  = "dev"
 
 # vpc variables
