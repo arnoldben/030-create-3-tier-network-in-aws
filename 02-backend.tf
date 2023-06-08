@@ -1,7 +1,7 @@
 # store the terraform state file in s3 and lock with dynamodb
 terraform {
   backend "s3" {
-    bucket         = "my-remote-tfstate-files"
+    bucket         = "remote-tfstate-files"
     key            = "cicd/3-tier-network/terraform.tfstate"
     region         = "us-east-1"
     profile        = "cloud_user"
