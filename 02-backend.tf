@@ -20,5 +20,5 @@ aws dynamodb create-table --table-name "terraform-state-lock" --attribute-defini
 
 aws s3 rm s3://remote-tfstate-files --recursive --region us-east-1 --profile cloud_user
 aws s3 rb s3://remote-tfstate-files --region us-east-1 --profile cloud_user
-
+---
 */
